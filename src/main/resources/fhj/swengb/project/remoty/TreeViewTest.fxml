@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane_view" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="603.0" xmlns="http://javafx.com/javafx/8.0.66" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fhj.swengb.project.remoty.RemotyAppController">
+   <children>
+      <TreeView fx:id="tree_view" layoutX="32.0" layoutY="68.0" prefHeight="345.0" prefWidth="518.0" />
+      <Label fx:id="msg_out" layoutX="28.0" layoutY="428.0" prefHeight="31.0" prefWidth="518.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
